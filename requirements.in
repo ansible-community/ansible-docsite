@@ -6,3 +6,6 @@ libsass
 jinja2
 # Allows Nikola to load data/*.yaml
 ruamel.yaml
+# Allows Nikola to be run in "auto" mode for live refresh
+aiohttp
+watchdog
