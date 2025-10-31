@@ -132,12 +132,6 @@ ecosystem:
       link: https://ansible.readthedocs.io/projects/ansible-core/
       logo: project-logos/ansible-core.svg
       alt: Ansible Core project logo
-    antsibull-nox:
-      heading: Antsibull Nox
-      description: A nox helper library that simplifies the process of testing Ansible collections through a common interface for various tools.
-      link: https://ansible.readthedocs.io/projects/antsibull-nox/
-      logo: project-logos/ansible-community.svg
-      alt: Antsibull-nox project logo
     builder:
       heading: Ansible Builder
       description: Ansible Builder lets you create Execution Environments, which are container images that act as Ansible control nodes.
@@ -150,6 +144,12 @@ ecosystem:
       link: https://ansible.readthedocs.io/projects/dev-tools/
       logo: project-logos/ansible-community.svg
       alt: Ansible DevTools project logo
+    antsibull-nox:
+      heading: Antsibull Nox
+      description: A nox helper library that simplifies the process of testing Ansible collections through a common interface for various tools.
+      link: https://ansible.readthedocs.io/projects/antsibull-nox/
+      logo: project-logos/ansible-community.svg
+      alt: Antsibull-nox project logo
 # Start ecosystem page
 ecosystem_page:
   title: Ansible ecosystem
