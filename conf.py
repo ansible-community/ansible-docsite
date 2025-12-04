@@ -1431,6 +1431,7 @@ try:
     "community": load_data('data/community.yaml'),
     "collections": load_data('data/collections.yaml'),
     "archive": load_data('data/archive.yaml'),
+    "banner": load_data('data/top-banner.yaml'),
     }
 
 except ImportError:
