@@ -11,6 +11,9 @@
 </head>
 <body id="top">
 
+{% if BANNER %}
+  {% include "top-banner.tmpl" %}
+{% endif %}
 <div class="global-container" id="content" role="main">
   {% if permalink == '/' %}
     {% block hero_content %}{% endblock hero_content %}
