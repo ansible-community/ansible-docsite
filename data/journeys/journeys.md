@@ -50,7 +50,7 @@ Milestone: Ask a question
 
 ```yaml
 Milestone: Learn how to contribute
-  Understand how open source contribution works 
+  Understand how open source contribution works
   Understand the types of contribution that are possible
   Be aware of the Code of Conduct
 Milestone: Support the wider project
@@ -70,6 +70,3 @@ Milestone: Learn about the products
   Understand that customers are welcome in the community
   Redirect to the product site
 ```
-
-
-

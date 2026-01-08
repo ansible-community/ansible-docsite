@@ -37,5 +37,3 @@ I'm looking for information on Red Hat's Ansible offerings. I might be an exitin
 * **Needs:** Clear direction to the product pages, one click away.
 * **Attitude:** Possibly irritated that they didn't land on the product right away. Might appreciate being aware of the upstream community, but wants to get to their target.
 * **Knowledge:** Unclear, but business-focussed for sure. Might be aware of RHAAP, AutomationHub, etc, or might be a community user of Ansible looking to go further
-
-
