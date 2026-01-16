@@ -8,4 +8,15 @@
   z-index: 9999;
   font-size: $font-md;
   line-height: 1.4;
+  a {
+    color: $white !important;
+    font-weight: bold;
+    text-decoration: underline;
+    text-decoration-color: $light-pool !important;
+    text-underline-offset: 0.2rem;
+    &:hover {
+      text-decoration-color: $white !important;
+    }
+  }
 }
+
