@@ -1418,7 +1418,7 @@ WARN_ABOUT_TAG_METADATA = False
 
 # Display a banner at the top of all pages.
 # Banner text is defined in data/top-banner.yaml.
-BANNER = False
+BANNER = True
 
 # Put in global_context things you want available on all your templates.
 # It can be anything, data, functions, modules, etc.
