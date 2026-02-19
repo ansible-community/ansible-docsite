@@ -152,15 +152,15 @@ NAVIGATION_ALT_LINKS = {
     DEFAULT_LANG: (
         (
           (
-            ("https://docs.ansible.com/ansible/latest/index.html", "Ansible package documentation", ""),
+            ("https://docs.ansible.com/projects/ansible/latest/index.html", "Ansible package documentation", ""),
             ("/users.html", "Users", ""),
             ("/developers.html", "Developers", ""),
             ("/maintainers.html", "Maintainers", ""),
             ("/ecosystem.html", "Ecosystem", ""),
-            ("https://docs.ansible.com/ansible/latest/collections/index.html", "Collection index", ""),
-            ("https://docs.ansible.com/ansible/latest/collections/all_plugins.html", "Modules and plugins index", ""),
+            ("https://docs.ansible.com/projects/ansible/latest/collections/index.html", "Collection index", ""),
+            ("https://docs.ansible.com/projects/ansible/latest/collections/all_plugins.html", "Modules and plugins index", ""),
             ("/ansible-prior-versions.html", "Documentation archive", ""),
-            ("https://docs.redhat.com/en/documentation/red_hat_ansible_automation_platform/", "Red Hat Ansible Automation Platform", ""),
+            ("https://docs.redhat.com/en/documentation/red_hat_ansible_automation_platform/?sc_id=RHCTE0250000464439", "Red Hat Ansible Automation Platform", ""),
           ),
           "Resources", ""
         ),
