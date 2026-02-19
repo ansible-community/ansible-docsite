@@ -28,13 +28,13 @@ ansible:
 links:
   get_started:
     label: Get started with Ansible
-    url: https://docs.ansible.com/ansible/latest/getting_started/index.html
+    url: https://docs.ansible.com/projects/ansible/latest/getting_started/index.html
   platform:
     label: Red Hat Ansible Automation Platform
-    url: https://www.redhat.com/en/technologies/management/ansible
+    url: https://www.redhat.com/en/technologies/management/ansible?sc_id=RHCTE0250000464439
   platform_docs:
     label: Red Hat Ansible Automation Platform documentation
-    url: https://docs.redhat.com/en/documentation/red_hat_ansible_automation_platform/
+    url: https://docs.redhat.com/en/documentation/red_hat_ansible_automation_platform/?sc_id=RHCTE0250000464439
 tab_menu:
   get_started: Get started
   users: Users
