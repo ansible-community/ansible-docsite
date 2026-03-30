@@ -1,26 +1,15 @@
-[![Discuss at #website:ansible.com on Matrix](https://img.shields.io/matrix/website:ansible.com.svg?server_fqdn=ansible-accounts.ems.host&label=Discuss%20at%20%23website:ansible.com&logo=matrix)](https://matrix.to/#/#website:ansible.com)
+# Ansible community docsite
 
-This repository contains the assets required to build the Ansible Community website, [docs.ansible.com](https://docs.ansible.com). Welcome!
+This repository contains the assets required to build the landing pages for the Ansible community docsite, [docs.ansible.com](https://docs.ansible.com). Welcome!
 
-
-## Contributing to the website
+## Contributing
 
 Please see [CONTRIBUTING](CONTRIBUTING.md)
 
-## Governance
+## Building locally
 
-Please see [Governance](CONTRIBUTING.md#Governance)
-
-## Contacting the maintainers
-
-The Website Working group can be found in [Ansible Website WG](https://matrix.to/#/#website:ansible.com) on Matrix
-or `#ansible-website` on IRC. Alternatively, a GitHub issue is also acceptable for asking
-questions.
-
-## Building the website locally
-
-The Ansible community website is static HTML generated from this repository.
-You can build the website locally if you want to evaluate changes or experiment.
+The Ansible community docsite is static HTML generated from this repository.
+You can build the docsite locally if you want to evaluate changes or experiment.
 
 ### Using nox
 
@@ -34,7 +23,7 @@ Install `nox`.
     # Install nox on MacOS
     brew install nox
 
-Run `nox -s build -- --conf=dev.conf.py` to build the website locally.
+Run `nox -s build -- --conf=dev.conf.py` to build the docsite locally.
 To see other available sessions, run `nox --list`.
 
 > By default the `conf.py` file uses absolute urls for style sheets and other resources.
@@ -42,7 +31,7 @@ To see other available sessions, run `nox --list`.
 
 ### Running nikola directly
 
-The website is built with nikola.
+The docsite is built with nikola.
 If you prefer using `nikola` commands directly, instead of using `nox`, you can.
 
 #### Setting things up
@@ -60,7 +49,7 @@ We recommend that you use a Python virtual environment.
 
 #### Building and viewing the site
 
-The Ansible community website is built with [Nikola](https://getnikola.com/).
+The Ansible community docsite is built with [Nikola](https://getnikola.com/).
 
     # Build the site with Nikola.
     nikola build --conf=dev.conf.py
@@ -78,8 +67,8 @@ The Ansible community website is built with [Nikola](https://getnikola.com/).
 ## Site accessibility
 
 Being considerate of users with assistive technology is a central part of the Ansible community pledge to be inclusive.
-When adding a blog post or making changes to the templates, we ask that you perform some accessibility checks.
-This ensures that everyone can read your post and our site remains open and accessible to all.
+When making changes to the templates, we ask that you perform some accessibility checks.
+This ensures that our site remains open and accessible to all.
 
 ### Web Content Accessibility Guidelines (WCAG) 2.1
 
@@ -175,8 +164,6 @@ For more information about configuration options, see:
 
 - [Linter](https://www.djlint.com/docs/linter/)
 - [Formatter](https://www.djlint.com/docs/formatter/)
-
-
 
 ## Code of Conduct
 
