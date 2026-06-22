@@ -33,7 +33,7 @@
   {{ math.math_styles_ifpost(post) }}
 {% endblock extra_head %}
 {% block content %}
-  <article class="post-{{ post.meta("type") }} h-entry hentry postpage ansible-content"
+  <article class="post-{{ post.meta('type') }} h-entry hentry postpage ansible-content"
            itemscope="itemscope"
            itemtype="http://schema.org/Article">
     {{ pheader.html_post_header() }}
