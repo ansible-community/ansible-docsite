@@ -2,71 +2,106 @@
 
 This document extends Ansible community personas by identifying and describing their journeys.
 
-[Ansible community personas](personas.md)
-
-## Intro
-
-Each persona has specific milestones in their respective journey.
-And each milestone has specific major actions that the persona achieves.
-The first milestone of each journey starts with human motivation.
-
-```yaml
-Milestone: Aware
-  Major action
-  Major action
-  ...
-Milestone: Evaluate
-  Major action
-  Major action
-  ...
-Milestone: Adopt
-  Major action
-  Major action
-  ...
-Milestone: Scale
-  Major action
-  Major action
-  ...
-```
-
 ## Novice
 
+The novice journey is the basis for the "Get started with Ansible" section on the docsite index page.
+
 ```yaml
-Milestone: Learn about Ansible
-  Read a brief description of what Ansible is
-  Redirect to the docs for onward learning journey, if needed
-Milestone: Install Ansible
-  Learn how to install via pip
-  Find out if OS-level packages exist for a system
-Milestone: Get started with simple executions
-  Redirect to the docs for onward quick-start journey
-Milestone: Ask a question
-  Understand what mediums are available
-  Choose a preferred medium, and redirect appropriately
-  Ask the question
+Milestone: Need to learn the basics
+  Understand the challenges of modern infrastructure management [content gap]
+  Understand the fundamentals of Ansible automation
+
+Milestone: Set up an automation project
+  Install the Ansible package
+  Run your first ad hoc command in a few easy steps
 ```
 
-## Contributor
+## Users
 
 ```yaml
-Milestone: Learn how to contribute
-  Understand how open source contribution works
-  Understand the types of contribution that are possible
-  Be aware of the Code of Conduct
-Milestone: Support the wider project
-  Understand how to help with events / forum / chat
-  Understand what community meetings are regularly held
-  Redirect to the right place to participate
-Milestone: Find a sub project / working group to participate in
-  Understand what groups exist and where to find them
-  Redirect to the repo / forum group / chatroom to participate
+Milestone: Create automation
+  Start writing Ansible playbooks
+  Learn about Ansible modules
+
+Milestone: Learn inventories
+  Build inventory files to manage multiple hosts
+  Use dynamic inventories
+
+Milestone: Organize automation projects
+  Use roles to structure the automation project
+
+Milestone: Use Ansible tooling
+  Use Ansible Lint to validate playbooks
+  Install Molecule to develop and test Ansible roles
+  Create and test playbooks with Ansible Navigator
+  Use Ansible with Visual Studio Code and OpenVSX compatible editors
+
+Milestone: Find Automation content
+  Start exploring Ansible Galaxy
+  Install and use roles
+  Install and use collections
+
+Milestone: Share automation content
+  Submit roles to an existing collection
+  Create a new collection
+  Upload a collection to Ansible Galaxy
+
+Milestone: Schedule and run automation jobs [TODO Add AWX overview, API]
+  Execute automation jobs on demand
+  Schedule automation jobs
+
+Milestone: Embed automation in systems
+  Build execution environment with specific dependencies
+  Use execution environments with AWX jobs
 ```
 
-## Customer
+## Developers
 
 ```yaml
-Milestone: Learn about the products
-  Understand that this is the upstream project which powers the products
-  Understand that customers are welcome in the community
-  Redirect to the product site
+Milestone: Start writing code
+  Set up your development environment
+  Learn how Ansible works
+  Write custom modules or plugins
+
+Milestone: Contribute code to a collection
+  Make your first contribution
+  Explore Collection contributor guide
+  Contribute your module to an existing collection
+  Review the lifecycle of an Ansible module or plugin
+
+Milestone: Test plugins and modules
+  Understand testing in Ansible
+  Run sanity tests
+  Write integration tests
+  Write unit tests
+
+Milestone: Create new collections
+  Set things up with the collection skeleton
+  Test your collection for code quality
+  Publish your collection on a distribution server
+  Request a collection be added to the Ansible package
+```
+
+## Maintainers
+
+```yaml
+Milestone: Learn about community maintainer responsibilities
+  Review community maintainer responsibilities
+  Backport merged pull requests to stable branches
+  Regularly release stable versions
+  Look after collection documentation
+
+Milestone: Expand community around a collection
+  Explore ways to grow community
+  Maintain good contributor documentation
+  Understand Ansible contributor paths
+
+Milestone: Get collections included in the Ansible package
+  Understand the inclusion process
+  Review other inclusion requests
+  Submit your collection for inclusion
+
+Milestone: Participate in cross-project governance
+  Discuss and vote on community topics
+  Join the Ansible community steering committee
 ```

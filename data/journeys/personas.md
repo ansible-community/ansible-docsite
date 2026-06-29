@@ -1,39 +1,60 @@
 # Ansible community personas
 
-Personas represent various humans who are all on different journeys within the Ansible community. These personas help put community users, or members, in context to identify what content they need at each stage of their respective journeys.
+Personas represent various humans who are all on different automation journeys with Ansible.
+These personas help put users in context to identify their technical content needs at each stage of their respective journeys.
 
-We use personas to ensure Ansible community users can find help when and where they need it. If the right support is there, users are much more likely to succeed with their goals. This leads to higher levels of adoption and a more vibrant, stronger community.
+We use personas to ensure Ansible community users can find help when and where they need it.
+If the right support is there, users are much more likely to succeed with their goals.
+This leads to higher levels of adoption and a more vibrant, stronger community.
 
-The practical goal of defining these personas is to improve the navigation and layout of the Ansible community website.
-
-We use single words for the persona names, so that they are easy to refer to in code/documentation/etc internally. Explanations of the words are given underneath.
+The practical goal of defining these personas is to improve the navigation and layout of the `docs.ansible.com` landing pages.
 
 ## Novice
 
-The word novice is not implied to mean someone unskilled, but rather someone new to Ansible who is looking for general information.
+<img src="https://i.imgur.com/GMilRTB.png" alt="Person using a computer" width="100"/>
 
-I'm a general technologist who's interested in automation, or has heard about Ansible in some way. I've landed here after a search and want guidance to my next steps.
+I'm a general technologist who has an idea about automation. I might already have a project or solution in mind and want to see if Ansible is the right tool for the job.
 
-* **Needs:** Clear information about where they have landed. Clear direction to next steps (docs, forum, chat, install method)
-* **Attitude:** Curious, in learning mode. Will tolerate having to hunt a little, but *only* a little.
-* **Knowledge:** Generally capable with tech, familiar with other project sites. Expects similar layout/navigation to get what they need.
+* **Needs:** A low barrier of entry to gain the fundamentals of Ansible automation.
+* **Attitude:** Wants to understand basic concepts quickly and can find small obstacles frustrating.
+* **Knowledge:** Undetermined. It is possible that I use Microsoft Windows as my primary operating system. I might even be completely new to open-source technology. I can be a Linux enthusiast doing home automation, a member of an IT team for a small business, or a solution architect for large enterprise.
 
-## Contributor
+## User
 
-Here contributor also includes *potential* contributors - in any case, people looking to get more deeply involved with the project
+<img src="https://i.imgur.com/VrX4ygq.png" alt="Person using a computer" width="100"/>
 
-I'm already an Ansible user and I'm looking to connect with the project, or I'm already part of the Ansible community and looking to participate in a new area.
+I write automation content like playbooks and roles. When writing playbooks and roles I like to evaluate multiple options to find simple solutions to complex problems.
 
-* **Needs:** Information on what places exist for connection/participation (bullhorn, forum, chat rooms, upcoming meetings & events)
-* **Attitude:** Excited / enthusiastic. Wants to contribute, but may back down if there are blockers or lack of information
-* **Knowledge:** Understands Ansible, *may* understand open source contribution in general. In the case of existing members, probably knows the project structure somewhat, but not the specifics of where to find people on another sub-project.
+* **Needs:** Needs best practice information that is up to date and complete.
+* **Attitude:** Does not like out of date, incomplete, or missing documentation.
+* **Knowledge:** Proficient. I am at home on the command line and enjoy technical challenges.
 
-## Customer
+## Developer
 
-Here we are talking about "Enterprise decision makers". With the name "Ansible" being overloaded, there is high chance that a user will end up on the community site even though they are looking for product information. In addition, we should be clear about our relationship with Red Hat as our primary sponsor - these can be combined together.
+<img src="https://i.imgur.com/QufXcjw.png" alt="Person using a computer" width="100"/>
 
-I'm looking for information on Red Hat's Ansible offerings. I might be an exiting customer looking for specific detail, or a new customer looking to learn more about the product line
+I write, or want to start writing, Ansible plugins and modules in Python or other programming languages. I might also want to write code for Ansible projects such as Lint, Molecule, or Event-driven Ansible.
 
-* **Needs:** Clear direction to the product pages, one click away.
-* **Attitude:** Possibly irritated that they didn't land on the product right away. Might appreciate being aware of the upstream community, but wants to get to their target.
-* **Knowledge:** Unclear, but business-focussed for sure. Might be aware of RHAAP, AutomationHub, etc, or might be a community user of Ansible looking to go further
+* **Needs:** Understand programmatic options and their expected behaviour.
+* **Attitude:** Technically curious and prefers verbosity.
+* **Knowledge:** Basic to expert level programming ability.
+
+## Community maintainer
+
+<img src="https://i.imgur.com/GY18SFy.png" alt="Person using a computer" width="100"/>
+
+I work with the community to maintain one or more collections as part of the Ansible package. Alternatively I might want to create my own collection and set everything up so I can run and maintain my collection. I might also be interested in working on community tooling such as Antsibull or other projects.
+
+* **Needs:** Clear path for creating collections from scratch and optionally getting them included in the Ansible package. Guidance on lifecycles and maintenance guidelines.
+* **Attitude:** Often busy with another more primary role.
+* **Knowledge:** Basic to expert IT skills with project management.
+
+## Community member/evangelist
+
+<img src="https://imgur.com/aseD8ux.png" alt="Kitten at a keyboard" width="120"/>
+
+I participate in the Ansible ecosystem community to learn and share my Ansible knowledge.
+
+* **Needs:** Guidance on where and how I can contribute as a non-coder for Ansible projects.
+* **Attitude:** Enthusiastic about Ansible.
+* **Knowledge:** Intermediate or above expertise in one or more parts of Ansible.
