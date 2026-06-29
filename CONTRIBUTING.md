@@ -102,6 +102,18 @@ Ask these questions when deciding where content fits in the journey:
 - "Can the persona complete the action with this content alone, or are there missing steps?"
 - "Does adding this content reveal any gaps in the surrounding milestone?"
 
+Keep these constraints in mind:
+
+- Milestones are sequential.
+  Each milestone builds on the previous one, so do not place advanced actions in early milestones or reorder milestones.
+- Do not duplicate actions across milestones.
+  Each action should appear once, in the milestone where it is most relevant.
+- Keep content within its persona.
+  Do not add developer-oriented actions to the user journey or vice versa.
+- Do not remove or rename milestone keys without checking the corresponding template, as it may reference the key directly.
+- Each action should link to a single, focused documentation page that serves as an entry point for that action.
+  Avoid linking to broad index pages.
+
 ### Milestone structure
 
 The `data/*.yaml` files for personas have the following structure:
