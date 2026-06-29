@@ -35,7 +35,7 @@ I write automation content like playbooks and roles. When writing playbooks and 
 
 I write, or want to start writing, Ansible plugins and modules in Python or other programming languages. I might also want to write code for Ansible projects such as Lint, Molecule, or Event-driven Ansible.
 
-* **Needs:** Understand programmatic options and their expected behaviour.
+* **Needs:** Understand programmatic options and their expected behavior.
 * **Attitude:** Technically curious and prefers verbosity.
 * **Knowledge:** Basic to expert level programming ability.
 
