@@ -9,7 +9,7 @@
   {{ super() }}
   {% if post.meta('keywords') %}
     <meta name="keywords"
-          content="{{ smartjoin(', ', post.meta('keywords') )|e }}">
+          content="{{ smartjoin(', ', post.meta('keywords')) |e }}">
   {% endif %}
   <meta name="author" content="{{ post.author() |e }}">
   {% if post.prev_post %}
@@ -55,5 +55,5 @@
   {{ comments.comment_link_script() }}
 {% endblock content %}
 {% block sourcelink %}
-  {% if show_sourcelink %}{{ ui.show_sourcelink(post.source_link() ) }}{% endif %}
+  {% if show_sourcelink %}{{ ui.show_sourcelink(post.source_link()) }}{% endif %}
 {% endblock sourcelink %}
