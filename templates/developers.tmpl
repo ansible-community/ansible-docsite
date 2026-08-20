@@ -17,26 +17,26 @@
               item.label
             }}</a>
           </div>
-      {%- endfor %}
-      <hr />
-    </div>
-  </div>
-  <!-- End quicklinks. -->
-  <!-- Start developer journey. -->
-  {% for key, value in developers.milestones.items() -%}
-    <div class="width-6-12 width-12-12-m journey-milestones">
-      <h3>{{ value.title }}</h3>
-      <div class="btn-group-vertical"
-           role="group"
-           aria-label="{{ homepage.labels.button_group }}">
-        {%- for action_key, action_value in value.actions.items() %}
-          <div class="doc-link-row doc-link">
-            <i class="fas fa-book"></i><a class="btn" href="{{ action_value.url }}" role="button">{{ action_value.label }}</a>
-          </div>
         {%- endfor %}
+        <hr />
       </div>
     </div>
-  {% endfor -%}
-  <!-- End developer journey. -->
+    <!-- End quicklinks. -->
+    <!-- Start developer journey. -->
+    {% for key, value in developers.milestones.items() -%}
+      <div class="width-6-12 width-12-12-m journey-milestones">
+        <h3>{{ value.title }}</h3>
+        <div class="btn-group-vertical"
+             role="group"
+             aria-label="{{ homepage.labels.button_group }}">
+          {%- for action_key, action_value in value.actions.items() %}
+            <div class="doc-link-row doc-link">
+              <i class="fas fa-book"></i><a class="btn" href="{{ action_value.url }}" role="button">{{ action_value.label }}</a>
+            </div>
+          {%- endfor %}
+        </div>
+      </div>
+    {% endfor -%}
+    <!-- End developer journey. -->
   </div>
 {% endblock content %}

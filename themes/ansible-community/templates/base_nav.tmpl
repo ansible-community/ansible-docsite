@@ -1,5 +1,5 @@
 <!-- Start menubar -->
-<nav class="navbar navbar-expand-lg static-top mb-4 navbar-padding {% if permalink != '/' %}full-width-bg{% endif %} {% if permalink == '/' %} bg-transparent {% else %} {% if theme_config.get('navbar_light') %} navbar-light {% else %} navbar-dark {% endif %} {% if theme_config.get('navbar_custom_bg') %} {{ theme_config['navbar_custom_bg'] }} {% elif theme_config.get('navbar_light') %} bg-light {% else %} bg-dark {% endif %} {% endif %} ">
+<nav class="navbar navbar-expand-lg static-top mb-4 navbar-padding {% if permalink != '/' %}full-width-bg{% endif %} {% if permalink == '/' %} bg-transparent {% else %} {% if theme_config.get('navbar_light') %} navbar-light {% else %} navbar-dark {% endif %} {% if theme_config.get('navbar_custom_bg') %} {{ theme_config['navbar_custom_bg'] }} {% elif theme_config.get('navbar_light') %} bg-light {% else %} bg-dark {% endif %} {% endif %}">
   <div class="masthead">
     <!-- This keeps the margins nice -->
     <a class="navbar-brand" href="{{ _link('root', None, lang) }}">
