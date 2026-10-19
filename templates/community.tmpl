@@ -16,7 +16,9 @@
              aria-label="{{ homepage.labels.button_group }}">
           {%- for action_key, action_value in value.actions.items() %}
             <div class="doc-link-row doc-link">
-              <i class="fas fa-book"></i><a class="btn" href="{{ action_value.link }}" role="button">{{ action_value.label }}</a>
+              <i class="fas fa-book"></i><a class="btn"
+   href="{{ action_value.link }}"
+   role="button">{{ action_value.label }}</a>
             </div>
           {%- endfor %}
         </div>

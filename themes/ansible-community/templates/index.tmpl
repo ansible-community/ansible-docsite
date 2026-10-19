@@ -7,7 +7,7 @@
 {% extends "base.tmpl" %}
 {% block extra_head %}
   {{ super() }}
-  {% if posts and (permalink == '/' or permalink == '/' + index_file) %}
+  {% if posts and (permalink == "/" or permalink == "/" + index_file) %}
     <link rel="prefetch" href="{{ posts[0].permalink() }}" type="text/html">
   {% endif %}
   {{ math.math_styles_ifposts(posts) }}
