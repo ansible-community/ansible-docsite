@@ -7,6 +7,10 @@ updates:
     labels:
       - "pip"
       - "dependencies"
+    groups:
+      lint-tools:
+        patterns:
+          - "djlint"
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
