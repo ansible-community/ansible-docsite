@@ -13,7 +13,7 @@
       {{ pheader.html_translations(post) }}
     </header>
     <div class="e-content entry-content" itemprop="articleBody text">{{ post.text() }}</div>
-    {% if site_has_comments and enable_comments and not post.meta('nocomments') %}
+    {% if site_has_comments and enable_comments and not post.meta("nocomments") %}
       <section class="comments">
         <h2>{{ messages("Comments") }}</h2>
         {{ comments.comment_form(post.permalink(absolute=True) , post.title(), post.base_path) }}
