@@ -1,10 +1,10 @@
 {#  -*- coding: utf-8 -*- #}
+{% extends "base.tmpl" %}
 {% import 'post_helper.tmpl' as helper with context %}
 {% import 'post_header.tmpl' as pheader with context %}
 {% import 'comments_helper.tmpl' as comments with context %}
 {% import 'math_helper.tmpl' as math with context %}
 {% import 'ui_helper.tmpl' as ui with context %}
-{% extends "base.tmpl" %}
 {% block extra_head %}
   {{ super() }}
   {% if post.meta("keywords") %}
