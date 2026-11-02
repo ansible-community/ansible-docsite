@@ -1,10 +1,10 @@
 {#  -*- coding: utf-8 -*- #}
+{% extends "base.tmpl" %}
 {% import 'index_helper.tmpl' as helper with context %}
 {% import 'math_helper.tmpl' as math with context %}
 {% import 'comments_helper.tmpl' as comments with context %}
 {% import 'pagination_helper.tmpl' as pagination with context %}
 {% import 'feeds_translations_helper.tmpl' as feeds_translations with context %}
-{% extends "base.tmpl" %}
 {% block extra_head %}
   {{ super() }}
   {% if posts and (permalink == "/" or permalink == "/" + index_file) %}
