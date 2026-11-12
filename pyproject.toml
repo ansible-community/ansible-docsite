@@ -5,7 +5,7 @@ description = "Ansible community docsite that provides landing pages for docs.an
 requires-python = ">=3.13"
 
 [dependency-groups]
-lint = ["djlint==1.49.2"]
+lint = ["djlint==1.49.10"]
 
 [tool.djlint]
 files=["./templates/","./themes/ansible-community/templates/"]
