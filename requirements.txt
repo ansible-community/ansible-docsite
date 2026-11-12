@@ -82,7 +82,7 @@ unidecode==1.4.0
     # via nikola
 urllib3==2.5.0
     # via requests
-watchdog==7.0.0
+watchdog==7.1.0
     # via -r requirements.in
 yarl==1.25.1
     # via aiohttp
