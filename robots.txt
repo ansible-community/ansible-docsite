@@ -1,5 +1,7 @@
 User-agent: *
 Disallow: /projects/ansible/devel/
+Disallow: /projects/ansible/14/
+Disallow: /projects/ansible/13/
 Disallow: /projects/ansible/12/
 Disallow: /projects/ansible/11/
 Disallow: /projects/ansible/10/
