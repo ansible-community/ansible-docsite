@@ -7,6 +7,10 @@ requires-python = ">=3.13"
 [dependency-groups]
 lint = ["djlint==1.54.0"]
 
+[tool.uv]
+required-version = ">=0.13.10"
+package = false
+
 [tool.djlint]
 files=["./templates/","./themes/ansible-community/templates/"]
 extension=".tmpl"
